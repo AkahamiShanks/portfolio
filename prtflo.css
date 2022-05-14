@@ -27,8 +27,7 @@ button{
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: stretch;
-    align-content: center;
+    justify-content: center;
     overflow-x: hidden;
     overflow-y: hidden;
   }

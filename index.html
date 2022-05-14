@@ -3,75 +3,74 @@
   <head>
     <meta charset="utf-8">
     <title>portfolio</title>
-    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="prtflo.css">
   </head>
   <header>
-    <h1>WELCOME</h1>
-    <h3>to my</h3>
-    <h1>PORTFOLIO</h1>
+    <div>
+      <h1>WELCOME</h1>
+      <h3>to my</h3>
+      <h1>PORTFOLIO</h1>
+    </div>
+    <div>
+      <button class="welcome">commencer</button>
+    </div>
+    <div>
+      <ul class="netflix">
+        <li><img src="images/curry.jpg"/></a></li>
+        <li><img src="images/diamant.jpg"/></a></li>
+        <li><img src="images/art.jpg"/></a></li>
+       </ul>
+    </div>
   </header>
-
+  <nav class="nav">
+    <ul>
+      <li><a class="btCV">Mon C.V.</a></li>
+      <li><a class="btProj">Mes projets</a></li>
+      <li><a class="btSport">Sport</a></li>
+      <li><a class="btVoyages">Les voyages que j'ai fait</a></li>
+      <li><a class="btArt">Mon projet artistique</a></li>
+    </ul>
+  </nav>
     <body>
-      <details>
-        <summary>continue</summary>
-
-    <aside class="tpt">
-      <details><summary><a href="">Mon C.V</a></summary>
-        <div>
-          <iframe height="700px" width="450px" src="CV-2022.pdf"></iframe>
-        </div>
-      </details>
-
-      <details><summary><a href="">Mes projets</a></summary>
-        <div>
-          <article>
-            <p>sert a pas grand chose a part changer<code> la police</code></p>
+      <div class="container">
+        <div class="slider">
+          <h2>Mon C.V.</h2>
+    <iframe height="700px" width="450px" src="CV-2022.pdf" class="cv"></iframe>
+      </div>
+      <div class="slider">
+          <article class="proj">
+            <h2>Projets Scolaires</h2>
+            <p>Projets scolaires menés<code> à l'IUT</code> de Grenoble</p>
             <dl>
-              <dt>Coffee</dt>
-              <dd>Black hot drink</dd>
-              <dt>Milk</dt>
-              <dd>White cold drink</dd>
+              <dt>Portfolio</dt>
+              <dd>Projet personnel et individuel. Vous êtes en train de lire le mien</dd>
+              <dt>City car race</dt>
+              <dd>Mini-jeu web à conceptualiser et développer en groupe de deux, sujet libre</dd>
             </dl>
           </article>
         </div>
-      </details>
-
-      <details><summary><a href="">Sport</a></summary>
-        <div>
-          <table>
-            <thead>
-                <tr>
-                    <th colspan="2">les sports</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>de combat</td>
-                    <td>collectifs</td>
-                </tr>
-                <tr>
-                  <td>judo</td>
-                  <td>handball</td>
-              </tr>
-              <tr>
-                <td>karaté</td>
-                <td>basketball</td>
-            </tr>
-            </tbody>
-        </table>
-        </div>
-      </details>
-
-      <details><summary><a href="">Les voyages que j'ai fait</a></summary>
-        <div></div>
-      </details>
-
-      <details><summary><a href="">Mon projet artistique</a><summary>
-        <div>
-      </details>
-    </aside>
-
-</details>
-    
+        <div class="slider">
+          <h2>Activités Sportives</h2>
+          <article class="sport">
+            <p>Sports de <code>combat</code></p>
+            <dl>
+              <dt>je sais plus quand</dt>
+              <dd>judo</dd>
+              <dt>2012 à 2015</dt>
+              <dd>Karaté</dd>
+            </dl>
+          </article>
+          <article>
+            <p>Sports en <code>équipe</code></p>
+            <dl>
+              <dt>2010 à 2012</dt>
+              <dd>Handball</dd>
+              <dt>2015 à aujourd'hui</dt>
+              <dd>Basketball</dd>
+            </dl>
+          </article>
+    </div>
+  </div>
+      <script src="prtflo.js"></script>
     </body>
 </html>

@@ -3,8 +3,8 @@
     background: rgba(159, 238, 242, 0.606);
 }
 header {
+    height: 100vh;
     text-align: center;
-    padding: 150px;
     position: relative;
     animation: commencerh 1s;
     animation-play-state: paused;

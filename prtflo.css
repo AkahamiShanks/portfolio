@@ -2,8 +2,8 @@
     margin: 0px;
     background: rgba(159, 238, 242, 0.606);
 }
+
 header {
-    height: 100vh;
     text-align: center;
     position: relative;
     animation: commencerh 1s;
@@ -44,12 +44,12 @@ button{
   }
   div ul li :hover{
     width: 250px;
-    height: 350px;
+    height: 320px;
   }
 .container{
     height: 100vh;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-snap-type: block mandatory;
 }
 .slider{
     display: flex;

@@ -87,18 +87,27 @@ nav{
 ul li a{
     position: relative;
     padding: 1em;
-    border-radius: 9px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(20, 20, 20);
-    transition: 500ms;
+    color: rgb(0, 0, 0);
+    /*animation: navbar 2s  forwards ;*/
+    cursor: pointer;
 }
-ul li a:hover{
-    background-color: black;
-    color: white;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
+
+/*@keyframes navbar {
+    1%{
+        color: black;
+        background-color: rgb(211, 224, 116);
+    }
+    30%{
+        color: aqua;
+        background-color: rgb(255, 244, 127);
+    }
+    100%{
+        color: red;
+        background-color: aqua;
+    }
+}*/
 h2{
     display: flex;
     text-align: center;
@@ -108,10 +117,9 @@ article{
     font: 20px bold;
     padding: 2em;
 }
-dl{
+dl, td{
     padding: 1em;
-    border-color: white;
-    border-radius: 7px;
+    border: 2px solid white;
 }
 dd{
     font: 18px arial;

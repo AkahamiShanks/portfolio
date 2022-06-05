@@ -29,3 +29,19 @@ btSport.addEventListener('click', function() {
     sport.scrollIntoView({behavior:'smooth'})
 });
 /************************************************************ */
+
+let btVoyage = document.querySelector(".btVoyage");
+let voyage = document.querySelector(".voyages");
+btVoyage.addEventListener('click', function() {
+    console.log("test")
+    voyage.scrollIntoView({behavior:'smooth'})
+});
+/************************************************************ */
+
+let btArt = document.querySelector(".btArt");
+let art = document.querySelector(".art");
+btArt.addEventListener('click', function() {
+    console.log("test")
+    art.scrollIntoView({behavior:'smooth'})
+});
+/************************************************************ */

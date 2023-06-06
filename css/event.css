@@ -1,0 +1,262 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-size: cover;
+    position: relative;
+    background-color: rgb(203, 203, 203);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+  }
+  
+
+.logo {
+    width: 120px;
+    transition: width 0.5s ease;
+    border-radius: 60px 60px 60px 60px;
+  }
+  
+  .navlist{
+    display: flex;
+  }
+  
+  .navlist a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+  }
+  
+  .navlist a:hover{
+    color: rgb(166, 159, 255);
+  }
+  
+  .navlist a.active{
+    color: rgb(0, 204, 255);
+  }
+  #menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    z-index: 100001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+  }
+
+  header.sticky{
+    background-color:#b471a2;
+    border-bottom: 1px solid #ffffff1a;
+      padding: 10px 2.5%;
+      transition: .5s;
+    
+  }
+
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+section{
+    padding: 3rem 0 2rem;
+    padding-left: 300px;
+    width: 80%;
+}
+.home{
+    width: 100%;
+    min-height: 440px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-position:70%;
+    padding-left: 0;
+}
+.home-text{
+    color: white;
+    text-align: center;
+}
+.home-title{
+    font-size: 3.5rem;
+}
+
+.home-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
+h2 a{
+    
+    color: #ffffff;
+}
+h2 a:hover{
+    color: rgb(120, 171, 218);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.post-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+
+.post-filter span:not(.active-filter){
+    color: white;
+    cursor: pointer;
+}
+
+.active-filter{
+    background: rgb(184, 0, 184);
+    color: rgb(130, 0, 0);
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: -6px 5px darkslategrey;
+}
+
+.post{
+    display: block;
+    align-items: start;
+    justify-content: start;
+}
+
+.post-box{
+    display: flex;
+    flex-direction: row;
+    background: #5e7db6;
+    padding: 2em;
+    margin: 2em 0 2em 0;
+    border-radius: 0.5rem;
+    width: fit-content;
+}
+.post-box span{
+    color: rgb(230, 229, 229);
+    gap: 1rem;
+}
+.post-box p{
+    color: rgb(232, 232, 232);
+    gap: 0.5rem;
+}
+
+.post-img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+    width: 170px;
+    height: auto;
+}
+
+.post-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.post-date{
+    display: flex;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.post-description{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5 px 0 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(81, 79, 120);
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: rgb(31, 12, 74);
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin:30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
